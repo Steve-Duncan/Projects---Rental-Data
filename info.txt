@@ -1,0 +1,51 @@
+What info is priority for smaller screen?
+
+On Search Listings...do users search for free, or should this lead to signup page? Map should be on the page this points to...
+
+landlord page - dead link? is study hall still valid?
+
+
+
+mainlander.com - idea site
+
+
+
+pre-customer experience -sales pitch
+paid customer experience
+
+easier sign up process
+
+sample pay sites:
+rentometer.
+creditkarma
+
+signup
+login
+search listings
+
+mapping
+can you pick location and do radius search?
+or use zipcode
+
+make search box easier
+check on geolocation
+google maps api
+
+sample user account
+testuser
+password
+
+set max width for body
+
+
+signup/log in easily accesible
+
+future improvements:
+appearance of appraiser page
+backburner landlord page
+
+when click register/login:
+replace content main with login?
+or popup?
+
+

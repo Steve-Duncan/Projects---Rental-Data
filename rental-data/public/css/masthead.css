@@ -1,0 +1,66 @@
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.masthead {
+    /*background: hsl(0, 0%, 90%);*/
+    display: flex;
+    flex-direction: column;
+/*}
+
+header {*/
+    box-sizing: border-box;
+    background: url(./../images/pdx_skyline.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    height: 350px;
+    width: auto;
+
+}
+#banner {
+    margin-top: 0;
+    margin-left: 2em;
+}
+#banner:before {
+   content: "Portland Oregon Rental Houses";
+}
+
+/*#main-menu {
+    order: 0;
+}*/
+/*.masthead div:first-of-type {
+    order: 1;
+}
+.masthead div:nth-of-type(2) {
+    order: 2;
+}*/
+.site-title {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+
+
+
+@media screen and (min-width: 44.44em) {
+    .site-title {
+        font-size: 2em;
+    }
+}
+    
+@media screen and (min-width: 50em) {
+    .site-title {
+        font-size: 2.5em;
+    }
+}
+
+/*.site-title a {
+    color: hsl(5, 45%, 95%);
+    text-decoration: none;
+}*/
+
+.site-title a:hover {
+    text-decoration: underline;
+}
