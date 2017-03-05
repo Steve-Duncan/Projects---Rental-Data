@@ -1,3 +1,4 @@
+<!-- <link href="./css/login_style.css" rel="stylesheet" type="text/css" media="screen"> -->
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,7 +20,9 @@
         <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Renters</a></li>
         <li><a href="#">Appraisers</a></li>
-        <li><a href="login">Login/Register</a></li>
+        <!-- <li id="show_login"><a href="login">Login/Register</a></li> -->
+        <li id="show_login"><a href="#"  data-toggle="modal" data-target="#myModal">Login/Register</a></li>
+         <!-- <button id="login" data-toggle="modal" data-target="#myModal"> -->
 
         <li class="has-submenu dropdown">
 	        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
@@ -30,7 +33,36 @@
 		            <li><a href="#">Contact us</a></li>	            
 		        </ul>
 		    </li>
+      </ul>
 
+
+
+<!--       <section id="loginform">
+        <form class="register-form" ng-submit="login()">
+
+          <section class=" form-group">
+
+            <ul class=" form-fields"> 
+              <li>
+                <label for="username">Username</label>
+                <input type="text" placeholder="username" ng-model="loginUser.username">
+              </li>
+              
+              <li>
+                <label for="password">Password</label>
+                <input type="password" placeholder="password" ng-model="loginUser.password">
+              </li>
+              
+            </ul>
+          </section>
+          <section class="form-submit">
+            <button type="submit" class="register-btn">Sign in</button>
+            <button class="cancel-btn"><a href="/" id="#close_login">Cancel</a></button>
+          </section>
+        </form>
+        <h5>Not registered yet? <a href="register">Click here</a> to register!</h5>
+      </section> -->
+        
         <!-- <li class="has-submenu dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
           <ul class="sub-menu dropdown-menu">
@@ -43,7 +75,9 @@
             <li><a href="#">One more separated link</a></li>
           </ul>
         </li> -->
-      </ul>
+
+      
+
  <!--      <form class="navbar-form navbar-left">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
@@ -65,4 +99,5 @@
       </ul> -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+
 </nav>

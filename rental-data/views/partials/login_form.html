@@ -1,9 +1,16 @@
-<link href="./css/style_register.css" rel="stylesheet" type="text/css" media="screen">
-<!-- <section > -->
-	<h2 >Login</h2>
+<!-- <link href="./css/style_register.css" rel="stylesheet" type="text/css" media="screen"> -->
 
 
-	<form class="register-form" ng-submit="login()">
+	<!-- <h2 >Login</h2> -->
+
+	<style>
+		.form-group {
+			background-color: yellow;
+		}
+	</style>
+
+
+	<form class="register-form" id="loginform" ng-submit="login()">
 
 <!-- 		<div ng-if="loginError">
 			<div class="alert alert-danger fade in">
@@ -31,7 +38,7 @@
 			<button class="cancel-btn"><a href="/">Cancel</a></button>
 		</section>
 	</form>
-	<h5>Not registered yet? <a href="register">Click here</a> to register!</h5>
-<!-- </section> -->
+	<h5>Not registered yet? <a href="#" id="register">Click here</a> to register!</h5>
+
 
 
