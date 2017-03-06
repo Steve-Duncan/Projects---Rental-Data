@@ -6,14 +6,8 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/register', function(req, res) {
-  res.render('partials/register_form', { title: 'Register' });
-  // res.send('This should be the landlord page!');  
-});
-
-router.get('/login', function(req, res) {
-  res.render('partials/login_form', { title: 'Register' });
-  // res.send('This should be the landlord page!');  
+router.get('/renters', function(req, res) {
+  res.render('renters', { title: 'Renters' });
 });
 
 module.exports = router;

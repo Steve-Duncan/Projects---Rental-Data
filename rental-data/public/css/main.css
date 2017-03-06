@@ -84,6 +84,11 @@ h1, h2, h3 {
 .sidebar-right section img {
 	margin-bottom: 10px;
 }
+.sidebar-right section p {
+	margin-bottom: 0;
+	text-align: center;
+}
+
 .footer {
 	padding: .4em 1em;
 	text-align: center;

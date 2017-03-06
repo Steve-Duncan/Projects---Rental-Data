@@ -40,7 +40,7 @@ article {
 /* mobile device size styling */
 @media screen and (max-width: 480px) {
 
-	.masthead {
+	header {
 		height: 200px;
 	}
 	.menu {

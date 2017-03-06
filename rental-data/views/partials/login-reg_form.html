@@ -1,0 +1,110 @@
+<section class=" panel-login">
+	<div class="row">
+		<a href="#" class="active" id="login-form-link">Login</a>
+		<a href="#" id="register-form-link">Register</a>
+	</div>
+</section>
+
+<div class="container">
+	
+
+	<section class="panel-body">
+		<form action="3" id="login-form">
+			<ul class="form-fields">	
+				<li>
+					<!-- <label for="username">Username</label> -->
+					<input type="text" placeholder="username" ng-model="loginUser.username">
+				</li>
+				
+				<li>
+					<!-- <label for="password">Password</label> -->
+					<input type="password" placeholder="password" ng-model="loginUser.password">
+				</li>		
+			</ul>
+	
+			<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+			<label for="remember"> Remember Me</label>
+			<section class="form-submit">
+				<button type="submit" class="register-btn">Log in</button>
+				<button class="cancel-btn"><a href="/">Cancel</a></button>	
+			</section>
+		</form>
+
+		<form action="#" id="register-form" role="form" style="display: none;">
+		<ul class=" form-fields">	
+			<li>
+				<!-- <label for="username">Username</label> -->
+				<input type="text" placeholder="username" ng-model="newUser.username" >
+			</li>
+			<li>
+				<!-- <label for="first_name">First Name</label> -->
+				<input type="text" placeholder="first name" ng-model="newUser.first_name">
+			</li>
+			<li>
+				<!-- <label for="last_name">Last Name</label> -->
+				<input type="text" placeholder="last name" ng-model="newUser.last_name">
+			</li>
+			<li>
+				<!-- <label for="birthday">Email</label> -->
+				<input type="text" name="email" placeholder="email" ng-model="newUser.email"></input>
+			</li>
+
+<!-- 			<div ng-if="match_fail" class="alert alert-danger fade in registerErrors">
+		    	<strong>Error!</strong> {{ match_fail }}
+			</div> -->
+
+			<li>
+				<!-- <label for="password">Password</label> -->
+				<input type="password" placeholder="password" ng-model="newUser.password">
+			</li>
+			<li>
+				<!-- <label for="password_confirm">Password Confirm</label> -->
+				<input type="password" placeholder="password confirm" ng-model="newUser.password_confirm">
+			</li>
+			<li>
+				<!-- <label for="address">Address</label> -->
+				<input type="text" placeholder="address" ng-model="newUser.address">
+			</li>
+			<li>
+				<!-- <label for="city">City</label> -->
+				<input type="text" placeholder="city" ng-model="newUser.city">
+			</li>
+			<li>
+				<!-- <label for="State">State</label> -->
+				<input type="text" placeholder="addrStates" ng-model="newUser.addStates">
+			</li>
+			<li>
+				<!-- <label for="zip">Zip Code</label> -->
+				<input type="text" placeholder="zip" ng-model="newUser.zip">
+			</li>
+			<li>
+				<select name="referral" size="1" class="form-control">
+					<option value="None">How did you hear about us?</option>
+					<option value="Internet web search">Internet web search</option>
+					<option value="Portland Grapevine">Portland Grapevine</option>
+					<option value="EBay Classifieds">EBay Classifieds</option>
+					<option value="Craigslist">Craigslist</option>
+					<option value="OregonLive">OregonLive</option>
+					<option value="Nickel Ads">Nickel Ads</option>
+					<option value="Outlook Classifieds">Outlook Classifieds</option>
+					<option value="Sandy Post">Sandy Post</option>
+					<option value="Hillsboro Argus">Hillsboro Argus</option>
+					<option value="Aloha Breeze">Aloha Breeze</option>
+					<option value="West Linn Tidings">West Linn Tidings</option>
+					<option value="Beaverton Valley Times">Beaverton Valley Times</option>
+					<option value="Lake Oswego Review">Lake Oswego Review</option>
+					<option value="GTE Yellow Pages">GTE Yellow Pages</option>
+					<option value="US West Yellow Pages">US West Yellow Pages</option>
+					<option value="Property Manager">Property Manager</option>
+					<option value="Reference No.">Reference No. (Specify below)</option>
+					<option value="">Other (Specify below)</option>
+				</select></font>
+			</li>
+		</ul>
+			<section class="form-submit">
+				<button type="submit" class="register-btn">Register</button>
+				<button class="cancel-btn"><a href="/">Cancel</a></button>	
+			</section>
+		</form>
+	</section>
+</div>

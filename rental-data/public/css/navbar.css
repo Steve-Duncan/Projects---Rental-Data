@@ -1,31 +1,12 @@
-/*#loginform {
-	visibility: hidden;
-}*/
-.menu {
-	color: white;
-	/*border: 1px solid #2d3c51;*/
-	/*display: flex;*/
-}
-#branding {
-	/*visibility: hidden;*/
-	padding-left: 1em;
-	visibility: hidden;
-}
-.navbar-header {
-	/*align-self: flex-end !important;
-	margin-left: 100px;
-	color: red;*/
-	/*padding-top: 1em;*/
-}
+/* styling for navbar*/
+
 #main-menu>ul {
-	/*border: 1px solid red;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
 }
 .nav > li > a {
 	color: black !important;
-	/*background-color: #fff;*/
 }
 .nav > li > a:hover {
 	background: #7fa6df !important;
@@ -38,41 +19,13 @@
 	visibility: hidden;
 	color: black !important;
 }
-/*#main-menu {
-	display: flex;
-	flex-direction: column;
-	
-	list-style-type: none;
-	order: 0;*/
-	/*display: none;*/
-/*}	*/
-.menu button {
-	width: 25px;
-	height: 25px;
-	/*margin: .5em 1em .5em auto;*/
-	margin-right: 1em;
-	margin-left: auto;
-
-	padding: 0;
-	background: transparent;
-	border: none;
-
-	display: flex;
-	flex-wrap: wrap;
-	visibility: hidden;
-
-}
 .icon-bar {
 	border: 1px solid black;
 	width: 100%;
 	margin: 2px 0;
 	padding: 0;
 	visibility: hidden;
-
-
 }
-
-
 .dropdown-toggle {
 	margin: 0;
 	padding: 0 .5em;
@@ -92,7 +45,6 @@
 }
 .has-submenu {
 	position: relative;
-
 }
 .sub-menu.toggled-on {
 	display: flex;
@@ -101,13 +53,10 @@
 	left: -120px;
 	width: 200px;
 	background: #e6e6e6;
-	/*border: 1px solid red;*/
 	padding-left: 0;
-	}
+}
 
 .sub-menu.toggled-on li a {
-	/*color: #FFF;*/
-	/*border: 1px solid red;*/
 	width: 100%;
 }
 
