@@ -1,0 +1,135 @@
+<div class="modal-dialog">
+
+	<!-- Modal content-->
+    <div class="modal-content">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h2 class="modal-title">Log in</h2>
+		</div> <!-- end div class=modal-header -->
+    	<div class="modal-body">
+	        <section class=" panel-login">
+				<div class="row">
+					<a href="#" class="active" id="form_login-link">Login</a>
+					<a href="#" id="form_register-link">Register</a>
+				</div>
+			</section> <!-- end section class=panel-login -->
+
+			<div class="container" id="login_register">
+				<section class="panel-body">
+					<form action="#" role='form' id="form_login">
+						<ul class="form-fields">	
+							<li>
+								<!-- <label for="username">Username</label> -->
+								<input type="text" placeholder="username" ng-model="loginUser.username">
+							</li>
+							
+							<li>
+								<!-- <label for="password">Password</label> -->
+								<input type="password" placeholder="password" ng-model="loginUser.password">
+							</li>		
+						</ul>
+
+						<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
+						<label for="remember"> Remember Me</label>
+						<section class="form-submit">
+							<button type="submit" id="btn-log-next">Log in</button>
+							<button class="btn-cancel"><a href="/Test">Cancel</a></button>	
+						</section>
+					</form>
+
+					<form action="#" id="form_register" role="form" style="display: none;">
+						<ul class=" form-fields">	
+							<li class='reg'>
+								<input type="text" name="email" placeholder="email" ng-model="newUser.email"></input>
+							</li>
+							<li class='reg'>
+								<!-- <label for="first_name">First Name</label> -->
+								<input type="text" placeholder="first name" ng-model="newUser.first_name">
+							</li>
+							<li class='reg'>
+								<!-- <label for="last_name">Last Name</label> -->
+								<input type="text" placeholder="last name" ng-model="newUser.last_name">
+							</li>
+							<li class='reg'>
+								<!-- <label for="password">Password</label> -->
+								<input type="password" placeholder="password" ng-model="newUser.password">
+							</li>
+							<li class='reg'>
+								<input type="password" placeholder="password confirm" ng-model="newUser.password_confirm">
+							</li>
+
+							<li class='addr'>
+								<input type="text" placeholder="address" ng-model="newUser.address">
+							</li>
+							<li class='addr'>
+								<input type="text" placeholder="city" ng-model="newUser.city">
+							</li>
+							<li class='addr'>
+								<input type="text" placeholder="state" ng-model="newUser.addStates">
+							</li>
+							<li class='addr'>
+								<input type="text" placeholder="zip" ng-model="newUser.zip">
+							</li>
+
+							<li class='reg'>
+								<select name="referral" size="1" class="form-control">
+									<option value="None">How did you hear about us?</option>
+									<option value="Internet web search">Internet web search</option>
+									<option value="Portland Grapevine">Portland Grapevine</option>
+									<option value="EBay Classifieds">EBay Classifieds</option>
+									<option value="Craigslist">Craigslist</option>
+									<option value="OregonLive">OregonLive</option>
+									<option value="Nickel Ads">Nickel Ads</option>
+									<option value="Outlook Classifieds">Outlook Classifieds</option>
+									<option value="Sandy Post">Sandy Post</option>
+									<option value="Hillsboro Argus">Hillsboro Argus</option>
+									<option value="Aloha Breeze">Aloha Breeze</option>
+									<option value="West Linn Tidings">West Linn Tidings</option>
+									<option value="Beaverton Valley Times">Beaverton Valley Times</option>
+									<option value="Lake Oswego Review">Lake Oswego Review</option>
+									<option value="GTE Yellow Pages">GTE Yellow Pages</option>
+									<option value="US West Yellow Pages">US West Yellow Pages</option>
+									<option value="Property Manager">Property Manager</option>
+									<option value="Reference No.">Reference No. (Specify below)</option>
+									<option value="">Other (Specify below)</option>
+								</select></font>
+							</li>
+							<li class='reg'>
+								<button id="btn-next-plan">Next</button>
+								<button class="btn-cancel"><a href="/Test">Cancel</a></button>
+							</li>
+
+							<li class='plan'>
+								<label class="form-check-label">
+						    		<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1">
+						    		Option one
+						  		</label>
+						  		<label class="form-check-label">
+						    		<input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+						    		Option two
+						  		</label>
+
+							</li>
+							<li class='plan'>
+								<button id="btn-next-payform">Next</button>
+								<button class="btn-cancel"><a href="/Test">Cancel</a></button>
+							</li>
+
+							<li class='pymt'>
+								<form>
+							
+									Payment form goes here
+									<li class='pymt'>
+										<button id="btn-pay">Pay now</button>
+										<button class="btn-cancel"><a href="/Test">Cancel</a></button>
+									</li>
+									
+								</form>
+							</li>
+						</ul>
+					</form>
+				</section> <!-- end section class=panel-body -->
+			</div> <!-- end div id=login_register -->
+		</div>	<!-- end div class=modal-body -->
+	</div> <!-- end div class=modal-content -->
+</div> <!-- end div class=modal-dialog -->

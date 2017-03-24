@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>Portland Rental Houses</title>
+    <meta name="description" content="Rental Data site, refactored to be responsive"/>
+     
+     <!-- Latest compiled and minified Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+
+    <link rel="stylesheet" href="css/style-master.css" type="text/css" media="all">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+    <div class="outer-wrap">
+
+        <header>          
+			<!-- header partial is loaded by script -->
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <a class="navbar-brand" href="#">Portland Rental Houses</a>
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>     
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="main-menu">
+			      <ul class="nav navbar-nav">
+			        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+			        <li><a href="renters">Renters</a></li>
+			        <li><a href="#">Appraisers</a></li>
+			        <li id="show_login"><a href="#"  data-toggle="modal" data-target="#log_reg_modal">
+			        	Login/Register</a></li>
+			        <li class="has-submenu dropdown">
+				        	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
+					        <ul class="sub-menu dropdown-menu">
+					        	<li><a href="#">Who are we?</a></li>
+					            <li><a href="#">FAQ</a></li>
+					            <li><a href="#">Customer comments</a></li>
+					            <li><a href="#">Contact us</a></li>	            
+					        </ul>
+					    </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>
+
+            <h1 id="banner"></h1>
+        </header>
+
+        <main class="container" id="main_container">
+			<aside class="sidebar-left" id='sidebar-left'>
+				<section>
+					<img src="/images/newest.jpg" alt="" class="img_hide">
+					<a href="#"><em>More about Rental Data...</em></a>
+				</section>
+				<section>
+					<p class="news">
+		                <strong>In the News</strong><br>
+		                <em>Local ID Theft</em> - A recent rash of local Craigslist rental postings is designed to get your money, your credit card and social security info...
+		                <span><a href="#"><em>Read More...</em></a></span>
+		            </p>
+		        </section>
+			</aside>
+								
+			<article class="main" id='main_article'>
+
+				<h1>Hello Portland!</h1>
+				<h2>Make finding your next home <em>easy!</em></h2>
+
+				<h3>Over 4000 homes for rent each month!</h3>
+				<ul>
+					<li>~ Portland, Oregon ~</li>
+					<li>~  The Willamette Valley ~</li>
+					<li>~  Vancouver, Washington ~</li>
+				</ul>
+
+				<p>Get custom reports, daily updates, and verified listings with Rental Data - matching tenants and landlords for over 26 years!</p>
+
+		 		<button id="login" data-toggle="modal" data-target="#log_reg_modal">Login/Register</button>
+		    </article>
+
+		    <!-- Modal for login/registration-->
+			<div id="log_reg_modal" class="modal fade" role="dialog">
+				<!-- modal partial is loaded by script -->
+			</div> <!-- end div id=log_reg_modal -->
+
+			<!-- Modal to display page for selecting search options -->
+			<div id="search_modal" class="modal fade" role="dialog">
+				<!-- modal partial is loaded by script -->
+			</div> <!-- end div id=search_modal -->
+
+			<!-- Modal to display search selected preferences-->
+			<div id="search_prefs_modal" class="modal fade" role="dialog">
+				<!-- modal partial is loaded by script -->
+			</div> <!-- end div id=search_results_modal -->
+
+
+			<aside class="sidebar-right" id='sidebar-right'>
+				<p>Find More Rentals Faster!</p>
+				<ul>
+					<li>Houses</li>
+					<li>Duplexes</li>
+					<li>Townhouses</li>
+				</ul>
+				<ul>
+					<li>Homes on Acreage</li>
+					<li><a href="#" id='search' data-toggle="modal" data-target="#search_modal" class='multiselect'><em>Search Listings...</em></a></li>
+				</ul>
+
+		        <section>
+					<img src="../images/easyfind8.jpg" alt="" class="img_hide">
+					<p>Finding rentals has never been easier!</p>
+					<p><a href="#"><em>Try now...</em></a></p>
+				</section>
+			</aside>
+
+		</main>
+    </div><!-- .outer-wrap -->
+
+	<!-- Latest compiled and minified JQuery -->
+	<script
+	  src="https://code.jquery.com/jquery-3.2.0.min.js"
+	  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+	  crossorigin="anonymous"></script>
+
+	<!-- Latest compiled and minified Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ 
+	<!-- scripts to handle menus and modals -->
+	<script src='js/dropdown-enhancement.js'></script>
+	<script type="text/javascript" src="js/menu-toggle.js"></script>
+    <script type="text/javascript" src="js/login-reg.js"></script>
+
+    <!-- functions for links and loading modals -->
+    <script type="text/javascript" src="js/links.js"></script>
+	<script type="text/javascript" src="js/search.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+

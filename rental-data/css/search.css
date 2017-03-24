@@ -1,0 +1,36 @@
+#form_home_type input{
+	margin: 0 0 0 1em;
+	width: 5%;
+}
+#form_home_type > ul > li {
+	background-color: white;
+	height: 45px;
+	margin-bottom: 1em;
+}
+#form_home_type button {
+	font-size: 18px;
+	text-align: left;
+}
+#form_home_type ul.dropdown-menu li {
+	width: 100%;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+#form_home_type ul.dropdown-menu label {
+	font-size: 16px;
+	display: inline-block;
+	padding-left: 10px;
+}
+#form_home_type ul li div.btn-group, #form_home_type ul li div.btn-group button {
+	width: 100%;
+	height: 100%;
+}
+
+#search {
+	border-radius: 8px;
+}
+#search_modal button.btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

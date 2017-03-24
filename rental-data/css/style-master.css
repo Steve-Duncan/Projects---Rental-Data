@@ -3,6 +3,7 @@ The primary stylesheet for the Rental Data site.
 */
 
 @import url('reset.css');
+@import url('base.css');
 @import url('accessibility.css');
 @import url('layout.css');
 @import url('typography.css');
@@ -14,6 +15,9 @@ The primary stylesheet for the Rental Data site.
 @import url('flex.css');
 
 @import url('login-reg.css');
+@import url('dropdown-enhancement.css');
+@import url('search.css');
+@import url('renters.css');
 
 
 

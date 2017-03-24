@@ -152,3 +152,6 @@
 	background-color: #1CA347;
 	border-color: #1CA347;
 }
+.addr, #form_pymt, #form_plan {
+	display: none;
+}

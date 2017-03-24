@@ -74,7 +74,7 @@ body {
 	background: white;
 	width: 80%;
 	margin: 0 auto;
-	padding: 2%;
+	/*padding: 2%;*/
 	line-height: 1.6;
 }
 article, aside, section, nav, figure, header, footer {
@@ -83,7 +83,7 @@ article, aside, section, nav, figure, header, footer {
 h1, h2, h3, h4 {
 	font-weight: normal;
 	font-family: LatoLight, Helvetica, sans-serif;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+	/*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);*/
 	color: #575451;
 	margin: 0;
 	line-height: 1;

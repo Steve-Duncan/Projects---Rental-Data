@@ -1,0 +1,15 @@
+.renters {
+	margin: 10% auto;
+	display: flex;
+	flex-direction: column;
+	
+
+}
+.renters h1 {
+	align-self: center;
+}
+.renters img {
+	height: 250px;
+	width: 250px;
+	margin: 10% auto;
+}
